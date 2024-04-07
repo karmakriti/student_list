@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week6</title>
+
+    <style>
+        body{
+            text-align : center /* center align the content horizontally */
+        }
+        .container{
+            margin: 0 auto; /* center the container horizontally*/
+            width : 50%; /* adjust the width of the containeras needed */
+            max-width : 600px; /* MAximum width of the container */
+            text-align : left; /* Aligns the texzt inside the container to the left*/
+        }
+
+    </style>
+</head>
+<body>
+<h1>Students Information</h1>
+<form
+        action ="Action.php" method = "post">
+        <input type = "text" name = "username" placeholder="Enter your name" required> <br><br>
+        <input type = "password" name = "password" placeholder ="Enter your password" required> <br><br>
+        <input type = "text" name ="age" placeholder = "Enter your age"  required><br><br>
+        <input type ="text" name ="additionalinfo" placeholder ="Enter your additional info"><br><br>
+
+        <input type ="submit" value ="Login"><br><br>
+
+
+
+</form>
+</body>
+</html>
